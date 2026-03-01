@@ -7,13 +7,15 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
-    "rootDir": "./src/typescript"
+    "rootDir": "./src"
   },
   "include": [
-    "src/typescript/**/*"
+    "src/**/*.ts",
+    "src/**/*.d.ts",
   ],
   "exclude": [
     "node_modules",
+    "dist",
     "**/*.spec.ts"
   ]
 }
